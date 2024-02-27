@@ -253,7 +253,7 @@ with st.form("select-buttons"):
                         elif total_Distance_Percentage > 80:
                             highlight_textprops_Choice = highlight_textprops_81_100
 
-                        ax_text(s = f'Dist. Total: {total_Distance} | <{(total_Distance_Percentage)}> %',
+                        ax_text(s = f'DT: {total_Distance} | <{(total_Distance_Percentage)}> %',
                                 highlight_textprops = highlight_textprops_Choice,
                                 x = 25, y = 95, color='black', ha='center', fontproperties=custom_font,
                                 fontsize=12, ax=ax);
@@ -272,7 +272,7 @@ with st.form("select-buttons"):
                         elif max_velocity_Percentage > 80:
                             highlight_textprops_Choice = highlight_textprops_81_100
 
-                        ax_text(s = f'Velocidade Máx: {max_velocity} | <{max_velocity_Percentage}> %',
+                        ax_text(s = f'VEL: {max_velocity} | <{max_velocity_Percentage}> %',
                                 highlight_textprops = highlight_textprops_Choice,
                                 x = 25, y = 89, color='black', ha='center', fontproperties=custom_font,
                                 fontsize=12, ax=ax);
@@ -291,7 +291,7 @@ with st.form("select-buttons"):
                         elif alta_Intensidade_Percentage > 80:
                             highlight_textprops_Choice = highlight_textprops_81_100
 
-                        ax_text(s = f'A. Intensidade: {alta_Intensidade} | <{alta_Intensidade_Percentage}> %',
+                        ax_text(s = f'DAI: {alta_Intensidade} | <{alta_Intensidade_Percentage}> %',
                                 highlight_textprops = highlight_textprops_Choice,
                                 x = 25, y = 83, color='black', ha='center', fontproperties=custom_font,
                                 fontsize=12, ax=ax);
@@ -309,7 +309,7 @@ with st.form("select-buttons"):
                         elif sprint_Percentage > 80:
                             highlight_textprops_Choice = highlight_textprops_81_100
 
-                        ax_text(s = f'Sprint: {sprint} <{sprint_Percentage}> %',
+                        ax_text(s = f'DS: {sprint} <{sprint_Percentage}> %',
                                 highlight_textprops = highlight_textprops_Choice,
                                 x = 95, y = 95, color='black', ha='center', fontproperties=custom_font,
                                 fontsize=12, ax=ax);
@@ -327,7 +327,7 @@ with st.form("select-buttons"):
                         elif aceleracao_Percentage > 80:
                             highlight_textprops_Choice = highlight_textprops_81_100
 
-                        ax_text(s = f'Aceleração: {aceleracao} <{aceleracao_Percentage}> %',
+                        ax_text(s = f'ACC: {aceleracao} <{aceleracao_Percentage}> %',
                                 highlight_textprops = highlight_textprops_Choice,
                                 x = 105, y = 89, color='black', ha='center', fontproperties=custom_font,
                                 fontsize=12, ax=ax);
@@ -346,7 +346,7 @@ with st.form("select-buttons"):
                         elif desaceleracao_Percentage > 80:
                             highlight_textprops_Choice = highlight_textprops_81_100
 
-                        ax_text(s = f'Desaceleração: {desaceleracao} <{desaceleracao_Percentage}> %',
+                        ax_text(s = f'DCC: {desaceleracao} <{desaceleracao_Percentage}> %',
                                 highlight_textprops = highlight_textprops_Choice,
                                 x = 105, y = 83, color='black', ha='center', fontproperties=custom_font,
                                 fontsize=12, ax=ax);
